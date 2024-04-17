@@ -1,16 +1,30 @@
 {
-  "name": "@uniswap/permit2",
-  "description": "Low-overhead, next generation token approval/meta-tx system to make token approvals easier, more secure, and more consistent across applications",
-  "version": "1.0.0",
-  "bugs": "https://github.com/Uniswap/permit2/issues",
-  "keywords": [
-    "ethereum",
-    "permit2",
-    "uniswap"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Uniswap/permit2.git"
-  }
+    "name": "permit2-no-push0",
+    "description": "Keller Permit2",
+    "version": "1.0.0",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@matterlabs/hardhat-zksync-deploy": "^0.6.5",
+        "@matterlabs/hardhat-zksync-solc": "^0.4.2",
+        "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+        "hardhat": "^2.17.0",
+        "hardhat-deploy": "^0.11.37",
+        "solmate": "^6.1.0"
+    },
+    "dependencies": {
+        "@matterlabs/hardhat-zksync-verify": "^0.2.0",
+        "@nomicfoundation/hardhat-verify": "^1.1.1",
+        "@nomiclabs/hardhat-ethers": "^2.2.3",
+        "@nomiclabs/hardhat-etherscan": "^3.1.7",
+        "@nomiclabs/hardhat-truffle5": "^2.0.7",
+        "@nomiclabs/hardhat-web3": "^2.0.0",
+        "dotenv": "^16.3.1",
+        "hardhat-abi-exporter": "^2.10.1",
+        "solidity-docgen": "^0.6.0-beta.36",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
 }

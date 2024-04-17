@@ -1,4 +1,8 @@
+node_modules
+.vscode
 .env
-/cache
-/out
-broadcast/
+deployments
+deploy
+cache
+artifacts
+.DS_Store
